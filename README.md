@@ -83,7 +83,7 @@ int main()
     int palestina=2;
     int escolha;
     printf("ENTRE COM O SUA ESCOLHA(1 OU 2)\n");
-    scanf("%i", escolha);
+    scanf("%i", &escolha);
     
      if ( escolha == 1 ) {
      
