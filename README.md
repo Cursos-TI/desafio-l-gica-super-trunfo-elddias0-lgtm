@@ -72,3 +72,24 @@ No nível Mestre, o desafio se intensifica com a adição de funcionalidades ava
 Boa sorte no desenvolvimento deste desafio e aproveite para aprender e se divertir enquanto progride pelos níveis!
 
 Equipe de Ensino - MateCheck
+
+# Desafio Super Trunfo - Países - Comparação das Cartas
+
+#include<stdio.h>
+
+int main()
+{
+    int brasil=1;
+    int palestina=2;
+    int escolha;
+    printf("ENTRE COM O SUA ESCOLHA(1 OU 2)\n");
+    scanf("%i", escolha);
+    
+     if ( escolha == 1 ) {
+     
+      printf("sua escolha é Brasil!\n");}
+      else { printf(" sua escolha é Palestina:\n");}
+      
+    
+    return 0;
+}
